@@ -15,49 +15,68 @@
     <div class="card mb-4">
       <div class="card-body">
         <h2>Thông tin cơ bản</h2>
+        <div class="pall-tb-15"></div>
         <div class="row">
-          <div class="col-form-label col-sm-3 pt-0">Tổng giá trị đầu tư (vnd)</div>
-          <div class="col-sm-4">
-            20000000
+          <div class="col-sm-3 pb-2">
+            <i class="nav-icon i-Money-Bag"></i>
+            Mục tiêu đầu tư (vnd)
           </div>
-          <div class="col-sm-5" style="text-align: end;">
+          <div id="target-value" class="col-sm-4 t-font-boldest pb-2">
+            200000000000
+          </div>
+          <div class="col-sm-5 pb-2" style="text-align: end;">
+            <i class="nav-icon i-Calendar"></i>
             <span>Thời hạn cuối:</span>
-            <span>12/2020</span>
+            <span class="t-font-boldest">12/2020</span>
           </div>
         </div>
-        <div class="row">
-          <div class="col-form-label col-sm-3 pt-0">Số vốn được đầu tư</div>
-          <div class="col-sm-9">
+        <div class="row pb-2">
+          <div class="col-form-label col-sm-3 pt-0">
+            <i class="nav-icon i-Money-2"></i>
+            Số vốn được đầu tư
+          </div>
+          <div id="progressBar" class="col-sm-9">
             <div class="progress mb-3">
               <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-form-label col-sm-3 pt-0">Mã dự án</div>
-          <div class="col-sm-3">
+          <div class="col-form-label col-sm-3 pt-0 pb-2">
+            <i class="nav-icon i-Bar-Code"></i>
+            Mã dự án
+          </div>
+          <div class="col-sm-3 pb-2">
             <span class="t-font-boldest">BMMH-22</span>
           </div>
-          <div class="col-form-label col-sm-3 pt-0">Kỳ thanh toán</div>
-          <div class="col-sm-3">
+          <div class="col-form-label col-sm-3 pt-0 pb-2">
+            <i class="nav-icon i-Calendar-4"></i>
+            Kỳ thanh toán
+          </div>
+          <div class="col-sm-3 pb-2">
             <span class="t-font-boldest">6 tháng</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-form-label col-sm-3 pt-0">Danh mục dự án</div>
-          <div class="col-sm-3">
+          <div class="col-form-label col-sm-3 pt-0 pb-2">
+            <i class="nav-icon i-Tag"></i>
+            Danh mục dự án
+          </div>
+          <div class="col-sm-3 pb-2">
             <span class="t-font-boldest">Thức ăn sáng</span>
           </div>
-          <div class="col-form-label col-sm-3 pt-0">Lợi nhuận kỳ vọng</div>
-          <div class="col-sm-3">
+          <div class="col-form-label col-sm-3 pt-0 pb-2">
+            <i class="nav-icon i-Line-Chart-2"></i>Lợi nhuận kỳ vọng
+          </div>
+          <div class="col-sm-3 pb-2">
             <span class="text-success t-font-boldest">+18%</span>
           </div>
         </div>
-
+        <div class="pall-tb-15"></div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item"><a class="nav-link active" id="home-basic-tab" data-toggle="tab" href="#homeBasic" role="tab" aria-controls="homeBasic" aria-selected="true">Giới thiệu</a></li>
-          <li class="nav-item"><a class="nav-link" id="profile-basic-tab" data-toggle="tab" href="#profileBasic" role="tab" aria-controls="profileBasic" aria-selected="false">Phương án kinh doanh</a></li>
-          <li class="nav-item"><a class="nav-link" id="contact-basic-tab" data-toggle="tab" href="#contactBasic" role="tab" aria-controls="contactBasic" aria-selected="false">Chủ dự án</a></li>
+          <li class="nav-item"><a class="nav-link tab-sm-pad active" id="home-basic-tab" data-toggle="tab" href="#homeBasic" role="tab" aria-controls="homeBasic" aria-selected="true">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link tab-sm-pad" id="profile-basic-tab" data-toggle="tab" href="#profileBasic" role="tab" aria-controls="profileBasic" aria-selected="false">Kế hoạch</a></li>
+          <li class="nav-item"><a class="nav-link tab-sm-pad" id="contact-basic-tab" data-toggle="tab" href="#contactBasic" role="tab" aria-controls="contactBasic" aria-selected="false">Chủ dự án</a></li>
         </ul>
         <div class="tab-content" id="myTabContent">
           <div class="tab-pane fade show active" id="homeBasic" role="tabpanel" aria-labelledby="home-basic-tab">
@@ -121,6 +140,7 @@
     <div class="card">
       <div class="card-body">
         <h2>Thông tin đầu tư</h2>
+        <div class="pall-tb-15"></div>
         <form>
           <div class="form-group row">
             <div class="col-form-label col-sm-3 pt-0">Số dư (vnd)</div>
@@ -133,8 +153,8 @@
             <div class="col-sm-3">
               <span class="t-font-boldest">BMMH-22</span>
             </div>
-            <div class="col-form-label col-sm-3 pt-0">Kỳ thanh toán</div>
-            <div class="col-sm-3">
+            <div class="col-form-label col-sm-4 pt-0">Kỳ thanh toán</div>
+            <div class="col-sm-2">
               <span class="t-font-boldest">6 tháng</span>
             </div>
           </div>
@@ -143,19 +163,19 @@
             <div class="col-sm-3">
               <span class="t-font-boldest">Thức ăn sáng</span>
             </div>
-            <div class="col-form-label col-sm-3 pt-0">Lợi nhuận kỳ vọng</div>
-            <div class="col-sm-3">
+            <div class="col-form-label col-sm-4 pt-0">Lợi nhuận kỳ vọng</div>
+            <div class="col-sm-2">
               <span class="text-success t-font-boldest">+18%</span>
             </div>
           </div>
           <div class="form-group row">
             <div class="col-form-label col-sm-3 pt-0">Số tiền đầu tư</div>
             <div class="col-sm-4">
-              <input class="form-control" >
+              <input class="form-control">
             </div>
           </div>
           <div class="form-group row">
-            <div class="col-form-label col-sm-3 pt-0">Phí giao dịch (vnd)</div>
+            <div class="col-form-label col-sm-3 pt-0" style="font-size: 90%">Phí giao dịch (vnd)</div>
             <div class="col-sm-9">
               <span>1,000</span>
             </div>
@@ -171,21 +191,21 @@
             <div class="col-sm-9">
               <div class="form-check">
                 <input class="form-check-input" id="gridCheck1" type="checkbox">
-                <label class="form-check-label ml-3" for="gridCheck1">
+                <span>
                   Tôi đồng ý với <a href="" class="badge badge-pill badge-danger p-2">Hợp đồng hợp tác đầu tư</a>
-                </label>
+                </span>
               </div>
             </div>
           </div>
           <div class="form-group row">
             <div class="col-form-label col-sm-3 pt-0">Mã OTP</div>
             <div class="col-sm-3">
-              <input class="form-control" >
+              <input class="form-control">
             </div>
           </div>
           <div class="separator-breadcrumb border-top"></div>
           <div class="form-group row">
-            <div class="col-form-label col-sm-3 pt-0">Giá trị lệnh đặt</div>
+            <div class="col-form-label col-sm-3 pt-0">Giá trị lệnh đặt(vnd)</div>
             <div class="col-sm-9">
               <span>1,001,000</span>
             </div>
