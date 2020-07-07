@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Project\\PopupInvesting\\FE\\Dashboard\\Dashboard\\Dashboard\\Dashboard.csproj": {}
+    "D:\\study\\template\\Dashboard_MVC\\dashboard\\Dashboard\\Dashboard\\Dashboard.csproj": {}
   },
   "projects": {
-    "H:\\Project\\PopupInvesting\\FE\\Dashboard\\Dashboard\\Dashboard\\Dashboard.csproj": {
+    "D:\\study\\template\\Dashboard_MVC\\dashboard\\Dashboard\\Dashboard\\Dashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Project\\PopupInvesting\\FE\\Dashboard\\Dashboard\\Dashboard\\Dashboard.csproj",
+        "projectUniqueName": "D:\\study\\template\\Dashboard_MVC\\dashboard\\Dashboard\\Dashboard\\Dashboard.csproj",
         "projectName": "Dashboard",
-        "projectPath": "H:\\Project\\PopupInvesting\\FE\\Dashboard\\Dashboard\\Dashboard\\Dashboard.csproj",
-        "packagesPath": "C:\\Users\\TIENTP\\.nuget\\packages\\",
-        "outputPath": "H:\\Project\\PopupInvesting\\FE\\Dashboard\\Dashboard\\Dashboard\\obj\\",
+        "projectPath": "D:\\study\\template\\Dashboard_MVC\\dashboard\\Dashboard\\Dashboard\\Dashboard.csproj",
+        "packagesPath": "C:\\Users\\Ti.Tran\\.nuget\\packages\\",
+        "outputPath": "D:\\study\\template\\Dashboard_MVC\\dashboard\\Dashboard\\Dashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TIENTP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ti.Tran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.grapecity.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,6 +78,14 @@
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -89,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
