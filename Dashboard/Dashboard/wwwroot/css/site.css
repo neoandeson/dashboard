@@ -7,6 +7,14 @@
     padding: 15px 0;
 }
 
+.click-active {
+    background-color: #f44336 !important;
+}
+
+.click-active-gray {
+    background-color: #eee !important;
+}
+
 @media (max-width: 575.98px) {
     .tab-sm-pad {
         /*font-size: 12px;*/
